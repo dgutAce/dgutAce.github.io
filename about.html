@@ -1,0 +1,124 @@
+---
+layout: page
+title: "About"
+description: "ACE Robotic Club"
+header-img: "img/about-bg.jpg"
+---
+
+<!-- Language Selector -->
+<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英语 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    <blockquote>
+        不必在乎生于何处，只要记住为何而逐. 
+    </blockquote>
+   2016年底，ACE机器人俱乐部前身RobotPioneer报名参加RoboMaster2017赛季. <br><br>2017年3月, 作为东莞市唯一一支RoboMaster参赛队伍多次获得月度最佳宣传报告。与年初通过技术报告，获得参赛资格，遗憾止步南部赛区，获得全国三等奖 <br><br>
+   ACE机器人俱乐部于2017年7月成立，前身是东莞理工学院RobotPioneer战队<br><br>ACE取自ace的王牌之意，表达了对队团队的期望——队员们在参加比赛和项目中，通过不断学习和探索，打造属于团队和自己在机器人领域的王牌 <br><br>团队分为机构组(机械构造)，软件组，电控组，宣传组，行政组，关于团队的详尽人员结构和各自的分工情况，请关注博客或者公众号(Wechat ID:dgutACE)后续的文章
+   <br>
+    <br>
+
+    <p style="text-align:right;">
+        —— <a href="https://mp.weixin.qq.com/s/8919FEhm15WUpSv-tEI9Pg">我们的王牌是我们自己 </a>
+    </p>
+
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    <blockquote>
+        No matter where you are from, Just remember why you go ahead.
+    </blockquote>
+
+    <p>
+        At the end of 2016, ACE Robotic Club, which was called RobotPionner before, sign in RoboMaster2017
+    </p>
+
+    <p style="text-align:right;">
+    -- ACE Robotic Club
+    </p>
+
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    function onLanChange(index){
+        if(index == 0){
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }else{
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        }
+    }
+    onLanChange(0);
+</script>
+
+
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<div class="comment">
+    <div class="ds-thread"
+    {% if site.duoshuo_username == "huxblog" %}
+        data-thread-id="1187623191091085319"
+    {% else %}
+        data-thread-key="{{site.duoshuo_username}}/about"
+    {% endif %}
+
+    data-title="{{page.title}}"
+    data-url="{{site.url}}/about/"></div>
+</div>
+<!-- 多说评论框 end -->
+
+<!-- Duoshuo hacking -->
+<input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User hacking by Hux
+    var _user = document.getElementById('dsUser').value;
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}

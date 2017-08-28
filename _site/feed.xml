@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACE Robotic Club</title>
+    <description>ACE Robotic Club </description>
+    <link>http://localhost:4000/dgutAce.github.io/</link>
+    <atom:link href="http://localhost:4000/dgutAce.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 28 Aug 2017 22:25:14 +0800</pubDate>
+    <lastBuildDate>Mon, 28 Aug 2017 22:25:14 +0800</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>我们的王牌是我们自己</title>
+        <description>&lt;h1 id=&quot;time-line&quot;&gt;Time Line&lt;/h1&gt;
+&lt;h4 id=&quot;2014&quot;&gt;2014&lt;/h4&gt;
+&lt;p&gt;RoboMaster开始以对抗赛的形式出现&lt;/p&gt;
+&lt;h4 id=&quot;2015&quot;&gt;2015&lt;/h4&gt;
+&lt;p&gt;大赛共吸引全国240余支机器人战队踊跃报名，这些参赛战队来自全国六大赛区150余所高等院校，其中不乏北京大学、清华大学、上海交通大学、电子科技大学、西安交通大学、华中科技大学、同济大学、哈尔滨工业大学、厦门大学等众多国内顶尖高校&lt;/p&gt;
+&lt;h4 id=&quot;2016&quot;&gt;2016&lt;/h4&gt;
+&lt;p&gt;大赛共吸引全球220余支机器人战队踊跃报名，这些参赛战队分别来自全国四大赛区以及海外等160余所高等院校，包括海外的华盛顿大学等全球顶尖高校&lt;/p&gt;
+
+&lt;p&gt;2016年底，ACE机器人俱乐部前身RobotPioneer报名参加RoboMaster2017赛季&lt;/p&gt;
+&lt;h4 id=&quot;2017&quot;&gt;2017&lt;/h4&gt;
+&lt;p&gt;作为东莞市唯一一支RoboMaster参赛队伍多次获得月度最佳宣传报告。与年初通过技术报告，获得参赛资格，遗憾止步南部赛区，获得全国三等奖&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;2017暑假，战队改名并成立ACE机器人俱乐部，引入全新的团队管理模式，重新启航！&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;future&quot;&gt;Future&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;等你一同创造辉煌！&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
+&lt;p&gt;ACE机器人俱乐部于2017年7月成立，前身是东莞理工学院RobotPioneer战队&lt;/p&gt;
+
+&lt;p&gt;ACE取自ace的王牌之意，表达了对队团队的期望——队员们在参加比赛和项目中，通过不断学习和探索，打造属于团队和自己在机器人领域的王牌&lt;/p&gt;
+
+&lt;p&gt;团队分为机构组(机械构造)，软件组，电控组，宣传组，行政组，关于团队的详尽人员结构和各自的分工情况，请关注公众号(&lt;code class=&quot;highlighter-rouge&quot;&gt;Wechat ID: dgutACE&lt;/code&gt;)后续的推送&lt;/p&gt;
+
+&lt;h1 id=&quot;daily&quot;&gt;Daily&lt;/h1&gt;
+&lt;p&gt;实验室是队员们日常的工作学习地点。无论天气好坏、是否放假，队员们几乎都呆在实验室里&lt;/p&gt;
+
+&lt;p&gt;大部分队员将课本、专业书籍等常用的书，还有自己的电脑都放在实验室了。当然，为了劳逸结合，我们的队长也会不定期深夜发放零食给修仙的队员们补充能量&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/dgutAce.github.io/img/post/intro/03.jpg&quot; alt=&quot;正在实验室讨论机械结构的队员们&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;实验室之外还有其他的活动，比如带着无人机到室外飞几圈，参加50公里徒步，培训学习，开展机器人宣传活动等等&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/dgutAce.github.io/img/post/intro/01.jpg&quot; alt=&quot;正在操控无人机的队长&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/dgutAce.github.io/img/post/intro/04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/dgutAce.github.io/img/post/intro/02.jpg&quot; alt=&quot;与星火教育共同举办ROS东莞站活动&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Aug 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/dgutAce.github.io/2017/08/28/intro/</link>
+        <guid isPermaLink="true">http://localhost:4000/dgutAce.github.io/2017/08/28/intro/</guid>
+        
+        <category>Intro</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
